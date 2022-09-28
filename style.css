@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(41, 36, 36);
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+
+h2 {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.result {
+    font-size: 500%;
+    margin: 5% auto;
+}
+
+.box {
+    width: 60%;
+    height: 0;
+    padding-bottom: 60%;
+    background-color: yellow;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.container-fluid {
+    margin-bottom: 5%;
+}
+
+.circle1 {
+    background-color: pink;
+}
+
+.circle2 {
+    background-color: purple;
+}
+
+@media (max-width: 990px) {
+    .hide {
+        display: none;
+    }
+
+    .result {
+        font-size: 400%;
+    }
+
+    .box {
+        width: 40%;
+        height: 0;
+        padding-bottom: 40%;
+        background-color: yellow;
+        margin: auto;
+        border-radius: 10%;
+    }
+}
+
+@media (max-width: 765px) {
+    .result {
+        font-size: 300%;
+    }
+}
+
+@media (max-width: 576px) {
+    .result {
+        font-size: 200%;
+    }
+}
